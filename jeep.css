@@ -1,0 +1,386 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width:1351px;
+    height: 80px;
+    background-color: black;
+}
+.logo1{
+    margin-top: 23px;
+    margin-left: 18px;
+    width: 82.58px;
+    height: 32.73px;
+    cursor: pointer;
+}
+.main{
+    width: 1351px;
+    height: 420px;
+    background-image: url(main\ jeep.jpg);
+    position: absolute;
+}
+.covercontent{
+    width: 600px;
+    height: 273.89px;
+    background-color: rgba(0, 0, 0, 0.404);
+    left: 60px;
+    top: 23px;
+    position: relative;
+}
+.headcontent{
+    width: 560px;
+    height: 62px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.A{
+    font-family: "Roboto";
+    font-size: 1.42857rem;
+    font-weight: 400;
+    line-height: 1.2;  
+    color: white;
+}
+.B{
+    font-family: "Heebo","Roboto",sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 2.35714rem;
+    bottom: 60px;
+    position: relative;
+    color: white;
+}
+.bodycontent{
+    width: 560px;
+    height: 151.89px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.C{
+    font-size: 1rem;
+    line-height: 1.42857;
+    text-align: left;
+    color: white;
+}
+.D{
+    font-weight: bold;
+    color: white;
+
+}
+.info{
+    width: 52px;
+    height: 210px;
+    position: fixed;
+    top: 59%;
+    right: 0;
+    margin-top: -110px;
+    z-index: 104;
+    
+}
+.infoA,.infoB,.infoC,.infoD,.infoE{
+    width: 52px;
+    height: 42px;
+    background-color: #ffba00;
+    border: 1px solid;
+    cursor: pointer;
+    
+}
+.centre{
+
+    width: 1351px;
+    height: 594.98px;
+    display: flex;
+    flex-direction: row;
+}
+.l{
+    width: 1351px;
+    height: 420px;
+}
+.centre1{
+    width: 50%;
+    height: 590px;
+}
+.newmodel{
+    width: 500px;
+    height: 34px;
+    padding-top: 43px;
+    margin-left: 120px;
+    
+}
+.pic{
+    background-color: rgb(255, 255, 255);
+    width: 539.81px;
+    height: 284.91px;
+    margin-left: 120px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.411);
+    float: left;   
+}
+.img{
+    width: 509.81px;
+    height: 254.91px;
+    padding-top: 15px;
+    padding-left: 15px;  
+}
+.centre2{
+   width: 50%;
+   height: 590px;
+
+  
+}
+.forms{
+    width: 450.33px;
+    height: 590px;
+
+    margin-left: 123px;
+
+}
+.book{
+    width: 500.23px;
+    height: 89px;
+
+    display: flex;
+    flex-direction: row;
+}
+.b1{
+    width: 300px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+.z{
+    font-family: "Roboto";
+    font-size: 1.42857rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.b2{
+    width: 200px;
+    height: 30px;
+  
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.fcolum1,.fcolum2{
+    width: 436px;
+    height: 70px;
+
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.f1,.f2,.f3,.f4{
+    width: 211.17px;
+    height: 54px;
+
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.bor1,.bor2,.bor3,.bor4{
+    width: 208px;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    text-align: center;
+    justify-content: center;
+}
+.fcolum3,.fcolum4{
+
+    width: 429px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.bor5,.bor6{
+    width: 429px;
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 3px;
+}
+.t{
+  text-align: left;
+  margin-top: 6px;
+}
+.fcolum5,.fcolum6{
+    width: 429px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row ;
+}
+.exchange,.agree{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.mark{
+    margin-left: 9px;
+    margin-top: 3px;
+}
+.submit{
+    background-color: #ffba00;
+    width: 123px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;   
+    border-radius: 0.14286rem;
+    border-radius: 3px;
+}
+.s{
+    padding-top: 10px;
+}
+.sub{
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    line-height: inherit;
+    font-weight: bolder;
+    line-height: 1;
+    letter-spacing: .05rem;
+    padding-bottom: 20px;
+}
+.topfooter{
+    width: 1351px;
+    height: 121px;
+    background-color:#212121;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: #bfbfbf;
+}
+.connect{
+    width: 779px;
+    height: 36px;
+    position: relative;
+    top: 48px;
+    left: 111px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+.search{
+       background-color: #ffffff;
+    width: 337px;
+    height: 35px;
+    margin-left: 150px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+}
+.sr{
+    width: 20px;
+    height: 20px;
+    padding-top: 7px;
+}
+.items{
+    width: 216px;
+    height: 35px;
+    background-color: #ffffff;
+}
+.srch{
+    height: 26px;
+    background-color: #ffba00;
+    width: 100.55px;
+    text-align: center;
+    padding-top: 9px;
+    color: #000;
+    cursor: pointer;
+}
+.cntct{
+    width: 120px;
+    height: 36px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.space{
+    width: 50px;
+}
+.topfootercopy{
+    width: 1351px;
+    height: 121px;
+}
+.lowerfooter{
+    width: 1351px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+.vehicles{
+    width: 209px;
+    height: 142px;
+  margin-top: 65px;
+  margin-left: 120px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.research{
+    height: 232px;
+    width: 209px;
+    margin-top: 65px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.locate,.brand{
+    height: 232px;
+    width: 233px;
+    margin-top: 65px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.partner{
+    height: 232px;
+    width: 225px;    
+    margin-top: 65px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.scrsht{
+    margin-top: 67px;
+}   
+.tailfooter{
+    width: 1351px;
+    height: 200px;
+    background-color: #000;
+}
+.tail{
+    width: 1100px;
+    height: 200px;
+    margin-left: 100px;
+    border-top:1px solid #ddca96;
+  
+    
+}
+.adv{
+    height: 50px;
+    width: 1100px;
+    display: flex;
+}
+.small{
+    width: 26.36px;
+    height: 14px;
+    margin-left: 910px;
+    margin-top: 16px;
+}
+.t2{
+    width: 500px;
+    height: 100px;
+    font-size: 10px;
+}
+.t1{
+    width: 1100px;
+    height: 10px;
+    font-size: 10px;
+}.tailcontent{
+    background-color: #000;
+    color: #bfbfbf;
+}
